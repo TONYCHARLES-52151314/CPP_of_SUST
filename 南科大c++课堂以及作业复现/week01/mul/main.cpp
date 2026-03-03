@@ -4,10 +4,9 @@ using namespace std;
 int main()
 {
     int a,b;
-    int r;
-    cin>>a;
-    cin>>b;
-    r = mul (a,b) ;
-    cout<<r;
+    int res;
+    cin>>a>>b;
+    res=mul(a,b);
+    cout<<res;
     return 0;
 }
